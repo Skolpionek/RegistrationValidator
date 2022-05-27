@@ -85,6 +85,7 @@ clearBtn.addEventListener('click', e => {
 
     [username, pass, pass2, email].forEach(el => {
         el.value = ''
+        
         clearError(el)
     })
 })
